@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HangMan</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./public/fonts/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/fonts/images/favicon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="./public/fonts/images/favicon/favicon-16x16.png">
+  </head>
+  <body>
+    <div id="app">
+      <div class="absolute top-6 right-6">
+        <input id="toggleDarkMode" type="checkbox" />
+      </div>
+      <h1 class="logo">"[HANGMAN GAME]"</h1>
+      <div id="game" class="mt-10 flex flex-col items-center">
+        <button id="startGame" class="button-primary">start game</button>
+      </div>
+    </div>
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>
